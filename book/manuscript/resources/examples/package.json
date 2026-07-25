@@ -1,0 +1,25 @@
+{
+  "name": "node-opcua-buch-beispiele",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "node-opcua": "^2.175.0"
+  },
+  "scripts": {
+    "miniserver": "node 32-miniserver/miniserver.mjs",
+    "client": "node 33-client-browse-read/client.mjs",
+    "subscription": "node 34-subscription/subscription.mjs",
+    "server-method": "node 35-methoden/server-method.mjs",
+    "client-method": "node 35-methoden/client-method.mjs",
+    "server-data-access": "node 36-data-access/server-data-access.mjs",
+    "server-alarm": "node 37-alarme/server-alarm.mjs",
+    "server-history": "node 38-historie/server-history.mjs",
+    "client-history": "node 38-historie/client-history.mjs",
+    "secure-server": "node 39-sicherer-zugriff/secure-server.mjs",
+    "secure-client": "node 39-sicherer-zugriff/secure-client.mjs",
+    "companion": "node 70-nodesets-companion/companion-machinery.mjs"
+  }
+}
